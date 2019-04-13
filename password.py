@@ -7,7 +7,7 @@ while i > 0:
 	if pwd == password:
 		print('登入成功')
 		break
-	if pwd != password and i > 0:
+	else:
 		if i > 0:
 			print('密码错误！还有', i, '次机会')
 		else:
